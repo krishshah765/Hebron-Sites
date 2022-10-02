@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hebron Sites</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css-debate-sites/debate-sites.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="background">
+      <img class="background-image" src="background-images/non-copyright-wallpaper.jpeg">
+    </div>
+
+    <div class="middle">
+      <div id="clockDisplay" class="time"></div>
+      <div id="dateDisplay" class="date"></div>
+      <div class="objective">
+        <div id="objectiveToday" class="objectiveToday">Today's Goal</div>
+        <input type="textbox" id="objectiveTodayText" class="objectiveTodayText" placeholder="[Enter Goal]">
+      </div>
+    </div>
+
+    
+    <button id="todobutton" class="todobutton">To-do</button>
+    <div class="todomodal" id="todomodal">
+      <div class="todo-modal-header">
+        <div class="todo-modal-title">To-do List</div>
+      </div>
+      <div class="todo-modal-body">
+        <input class="todo-title" id="todo-title" type="text" placeholder="Add To-do"/>
+        <div class="todo-list" id="todo-list"></div>
+      </div>
+    </div>
+
+    <div class="top-left">
+      <div id="stopwatch-display" class="stopwatch-display">00:00:00</div>
+      <div class="stopwatch-buttons">
+        <button class="start-stop" id="start-stop">Start</button> <button class="reset" id="reset">Reset</button>
+      </div>
+    </div>
+    
+  </body>
+  
+  <script type="text/javascript" src="js-debate-sites/debate-sites-todo.js"></script>
+  <script type="text/javascript" src="js-debate-sites/debate-sites-objective-today.js"></script>
+  <script type="text/javascript" src="js-debate-sites/debate-sites-stopwatch.js"></script>
+  <script type="text/javascript" src="js-debate-sites/debate-sites-render-time.js"></script>
+  <script type="text/javascript" src="js-debate-sites/debate-sites-.js"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MTEV633TK4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-MTEV633TK4');
+  </script>
+
+</html>
